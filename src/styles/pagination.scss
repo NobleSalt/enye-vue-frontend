@@ -1,0 +1,15 @@
+nav {
+  padding: 0 15px;
+
+  * {
+    transition: 500ms;
+  }
+
+  ul.pagination {
+    flex-wrap: wrap;
+
+    li {
+      cursor: pointer;
+    }
+  }
+}

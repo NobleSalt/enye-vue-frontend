@@ -1,0 +1,18 @@
+.Nav {
+  background-color: #00252e;
+  width: 100vw;
+  display: flex;
+  // justify-content: space-between;
+  font-family: 'Courier New';
+  text-transform: capitalize;
+  position: fixed;
+  flex-wrap: wrap;
+  color: white;
+  bottom: 0;
+  // height: 3rem;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-align: left;
+  z-index: 10;
+}
