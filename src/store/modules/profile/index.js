@@ -33,7 +33,8 @@ export default {
   mutations: {
     // function to fetch data from api and update state.assumedPages
     handleFetchData(state) {
-      const url = 'https://api.enye.tech/v1/challenge/records'
+      // const url = 'https://api.enye.tech/v1/challenge/records'
+      const url = '/records.json'
       axios
         .get(url)
         .then(res => {
